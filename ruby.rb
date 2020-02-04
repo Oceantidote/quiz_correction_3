@@ -8,12 +8,18 @@
 
 
 
-# 3. Draw the book and author db
+# 3. Consider this e-library service. An author, defined by his
+#     name have several books. A book, defined by its title and
+#     publishing year, has one author only. What’s this simple
+#     database scheme. Please draw it!
 
 
 
 
-# 4. Draw the user and book_reading db on top
+# 4. A user, defined by his email, can read several books. A
+#    book (e-book!!) can be read by several user. We also want
+#    to keep track of reading dates. Improve your e-library DB
+#     scheme with relevant tables and relationships.
 
 
 
