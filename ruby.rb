@@ -51,7 +51,7 @@
 
 # 10. Complete the migrations
 
-class CreateAuthors < activeRecord::Migration[5.2]
+class CreateAuthors < ActiveRecord::Migration[5.2]
   def change
     create_table :authors do |t|
 
@@ -60,19 +60,19 @@ class CreateAuthors < activeRecord::Migration[5.2]
   end
 end
 
-class CreateBooks < activeRecord::Migration[5.2]
+class CreateBooks < ActiveRecord::Migration[5.2]
   def change
 
   end
 end
 
-class CreateUsers < activeRecord::Migration[5.2]
+class CreateUsers < ActiveRecord::Migration[5.2]
   def change
 
   end
 end
 
-class CreateReadings < activeRecord::Migration[5.2]
+class CreateReadings < ActiveRecord::Migration[5.2]
   def change
 
   end
@@ -81,7 +81,7 @@ end
 
 # 11. Write migration to add category to books
 
-class AddCategoryToBooks < activeRecord::Migration[5.2]
+class AddCategoryToBooks < ActiveRecord::Migration[5.2]
   def change
 
 
@@ -91,25 +91,25 @@ end
 
 # 12. Define the models for each table in your database
 
-class classname
+class ClassName
 
 
 
 end
 
-class classname
+class ClassName
 
 
 
 end
 
-class classname
+class ClassName
 
 
 
 end
 
-class classname
+class ClassName
 
 
 
